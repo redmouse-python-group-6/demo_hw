@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
- 
+def func1 (): 
+	return u"Вам в детский сад"
+
 print u"Общество в начале XXI века"
 age=int(raw_input("Введите ваш возраст "))
 if 0<=age<=7:
-    print u"Вам в детский сад"
+    print func1()
 elif age<=18:
     print u"Вам в школу"
 elif age<=25:
